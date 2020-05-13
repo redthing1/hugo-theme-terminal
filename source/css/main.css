@@ -260,6 +260,12 @@ ol ol {
   }
 }
 
+.table-of-contents {
+  ul {
+    margin-top: 0px;
+  }
+}
+
 .content {
   display: flex;
 
