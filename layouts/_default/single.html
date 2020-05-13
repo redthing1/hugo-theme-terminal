@@ -15,6 +15,12 @@
     {{ end }}
   </div>
 
+  {{ with .Params.Subtitle }}
+    <div class="post-subtitle">
+      {{ . | markdownify }}
+    </div>
+  {{ end }}
+
   {{ if .Params.tags }}
   <span class="post-tags">
     {{ range .Params.tags }}

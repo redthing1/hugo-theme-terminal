@@ -44,6 +44,12 @@
     }
   }
 
+  &-subtitle {
+    display: block;
+    opacity: .8;
+    margin-bottom: 10px;
+  }
+
   &-tags {
     display: block;
     margin-bottom: 20px;
