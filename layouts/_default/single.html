@@ -34,6 +34,8 @@
             {{ .Params.TocTitle }}
           {{ else if $.Site.Params.TocTitle }}
             {{ $.Site.Params.TocTitle }}
+          {{ else }}
+            Table of Contents
           {{ end }}
         </h1>
       {{ .TableOfContents }}
