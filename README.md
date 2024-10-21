@@ -1,3 +1,17 @@
+# skip the nonsense
+
+webdev is trash
+
+setup:
+```
+npm install
+```
+
+rebuild the theme:
+```sh
+npm run build
+```
+
 # Terminal
 
 ![Terminal](https://github.com/panr/hugo-theme-terminal/blob/master/images/screenshot.png?raw=true)
